@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Payment card</title>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<form class="payment-card" action="#" method="post">
+  <ul class="credit-cards-icon">
+    <li class="mc"></li>
+    <li class="visa"></li>
+    <li class="ae"></li>
+    <li class="ec"></li>
+    <li class="jcb"></li>
+  </ul>
+  <div class="input-icon-block">
+    <label class="input-icon" for="select-credit-card">
+      <span class="mc" id="change-credit-card"></span>
+    </label>
+    <select id="select-credit-card" data-z-index="1">
+      <option value="mc">Master Card</option>
+      <option value="visa" selected>Visa</option>
+      <option value="ae">American Express</option>
+      <option value="ec">Electronic Cash</option>
+      <option value="jcb">JCB</option>
+    </select>
+  </div>
+</form>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/jquery.formstyler/1.7.4/jquery.formstyler.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

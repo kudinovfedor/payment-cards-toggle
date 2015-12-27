@@ -7,7 +7,7 @@
     $("select").styler();
 
     var idSelect = $('#select-credit-card'),
-      idCardImg = $('#change-credit-card'),
+      idCardImg = $('.change-credit-card'),
       idCardIcons = $('.credit-cards-icon'),
       cardClass = 'mc visa ae ec jcb';
 

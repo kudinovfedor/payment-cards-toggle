@@ -1,0 +1,51 @@
+{
+  "name": "payment-cards-toggle",
+  "version": "1.0.0",
+  "description": "Payment cards toggle with help icons of credit cards",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bower": "^1.7.1",
+    "gulp": "^3.9.0",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-htmlhint": "^0.3.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-scss-lint": "^0.3.8",
+    "gulp-scss-lint-stylish2": "^2.0.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0",
+    "main-bower-files": "^2.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kudinovfedor/payment-cards-toggle.git"
+  },
+  "keywords": [
+    "jQuery",
+    "payment",
+    "cards",
+    "toggle"
+  ],
+  "author": "Kudinov Fedor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kudinovfedor/payment-cards-toggle/issues"
+  },
+  "homepage": "https://github.com/kudinovfedor/payment-cards-toggle#readme"
+}

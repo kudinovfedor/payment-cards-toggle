@@ -43,7 +43,7 @@
     "toggle"
   ],
   "author": "Kudinov Fedor",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kudinovfedor/payment-cards-toggle/issues"
   },
